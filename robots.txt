@@ -1,0 +1,7 @@
+User-agent: *
+Sitemap: https://resurgepillsreview.com/sitemap_index.xml
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Allow: /*.css
+Allow: /*.js
+Allow: *.png
