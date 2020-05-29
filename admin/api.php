@@ -9,6 +9,7 @@
 	include('inc/api.class.php');
 	
 	#step 1 - check for post
+	if (empty($_POST)) exit;
 	if (!getDef('GSEXTAPI',true)) exit;
 	
 	// disable libxml error output
